@@ -5,13 +5,12 @@
 }
 
 header {
-    
   background-color: #eeeeee;
   height: 70px;
 }
 
 nav {
-    padding: 5px;
+  padding: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -21,41 +20,78 @@ nav {
   align-items: center;
   flex-wrap: wrap;
 }
-nav .brand{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-content: space-around;
-    justify-content: space-evenly;
-    gap: 10;
-    align-items: center;
-   
+nav .brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  gap: 10;
+  align-items: center;
 }
 
-nav .img-brand{
-    width: 50px;
+nav .img-brand {
+  width: 50px;
+  
 }
 
-nav a{
-    color:grey;
-    text-decoration: none;
-    font-size: 15px;
+nav a {
+  color: grey;
+  text-decoration: none;
+  font-size: 15px;
 }
-nav a:hover{
-    color: black;
+nav a:hover {
+  color: black;
 
-    transition: all 0.2s;
+  transition: all 0.2s;
   transform: scale(1.05);
 }
 
-.jumbotron{
-display: flex;
-align-items: center;
-background-color:#12252b ;
-color: white;
-text-align:center;
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-color: #12252b;
+  color: white;
+  text-align: center;
+
+
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.jumbotron p{
+  margin-top: 20px;
+}
+.txt-jumbo{
+  margin-top: 3vh;
+}
+.news {
+  padding-top: 2vh;
+}
+.img-jumbo {
+  height: 400px;
+  box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.titulo-categorias {
+  text-align: center;
+  margin-top: 10px;
 }
 
-.img-jumbo{
-  height: 400px;
+.categorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+
+  /* gap: 10; */
+}
+
+
+
+footer{
+  background-color: #12252b;
 }
