@@ -233,6 +233,14 @@ footer {
   .toggle-menu {
     display: none;
   }
+  .adicionales {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+  .card-adicionales {
+    display: inline-block;
+  }
 }
 
 @media screen and (max-width: 568px) {
