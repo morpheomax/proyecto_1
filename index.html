@@ -10,30 +10,48 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./assets/css/icofont/icofont.min.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Proyecto 1 - Landing de Venta</title>
   </head>
   <body>
     <!-----------NAV------------->
     <header>
-      <nav>
-        <div class="brand">
-          <a class="logo" href="#">
-            <img src="./assets/img/logo.png" alt="Logo" class="img-brand" />
-          </a>
-          <h3>Sound Store</h3>
+      <nav class="main-nav">
+        <!-----Toggle-->
+        <div id="toggle-menu" class="toggle-menu">
+          <i class="icofont-navigation-menu"></i>
         </div>
 
-        <a href="#">Inicio</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Catálogo</a>
-        <a href="#">Contacto</a>
+        <ul id="main-menu" class="main-menu">
+          <!-----Logo-->
+          <li class="main-menu__item">
+            <a class="logo" href="./index.html">
+              <img src="./assets/img/logo.png" alt="Logo" class="img-brand" />
+            </a>
+          </li>
+          <!-----Items-->
+          <li class="main-menu__item">
+            <a href="./index.html" class="main-menu__link">Inicio</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">Nosotros</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">Catálogo</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">Contacto</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link"></a>
+          </li>
 
-        <div class="acces">
-          <a href="#">Ingresar</a>/
-          <a href="#">Registrarse</a>
-          <img src="" alt="" srcset="" />
-        </div>
+          <li class="main-menu__item">
+            <a href="./login.html" class="main-menu__link">Ingresar</a>/
+            <a href="./login.html" class="main-menu__link">Registrarse</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
@@ -94,12 +112,16 @@
         <a href="#">Catálogo</a>
         <a href="#">Contacto</a>
       </div>
+      <div class="diseno">© TODOS LOS DERECHOS RESERVADOS</div>
       <div class="rrss">
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        <i class="fa fa-youtube" aria-hidden="true"></i>
+        <h3>Siguenos en nuestras Redes Sociales</h3>
+        <a href="#"><i class="icofont-facebook"></i></a>
+        <a href="#"><i class="icofont-instagram"></i></a>
+        <a href="#"><i class="icofont-twitter"></i></a>
+        <a href="#"><i class="icofont-twitch"></i></a>
+        <a href="#"><i class="icofont-youtube-play"></i></a>
       </div>
     </footer>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
