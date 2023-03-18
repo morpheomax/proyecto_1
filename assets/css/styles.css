@@ -151,6 +151,33 @@ footer {
   text-decoration: none;
 }
 
+/* Adicionales */
+.adicionales {
+  display: flex;
+}
+.card-adicionales {
+  margin: auto;
+  display: inline-flex;
+  align-items: center;
+  border: rgb(0, 0, 0, 0.2) 1px solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+.title-info {
+  text-align: center;
+  font-size: 3vh;
+  color: rgb(0, 0, 0);
+}
+.desc {
+  font-size: 2vh;
+  text-align: center;
+}
+.img-adicionales {
+  border-radius: 10px;
+}
+
 /* -------------------LOGIN -------------------*/
 .main-nav {
   margin: 0;
@@ -224,5 +251,13 @@ footer {
   .diseno,
   .rrss {
     padding: 10px;
+  }
+  .adicionales {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+  .card-adicionales {
+    display: inline-block;
   }
 }
